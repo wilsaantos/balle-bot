@@ -36,6 +36,11 @@ body {
     font-size: 18px;
 }
 
+.nav-item:hover {
+    color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+}
+
 .content {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;
@@ -133,4 +138,14 @@ body {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
+}
+
+.footer-ds a {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    text-decoration: none;
+}
+
+.footer-ds a:hover {
+    color: rgba(236, 214, 196, 0.53);
 }
